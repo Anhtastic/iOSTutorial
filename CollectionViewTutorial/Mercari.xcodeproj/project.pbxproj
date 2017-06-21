@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1B56681EF61289008C430B /* ApparelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B56671EF61289008C430B /* ApparelViewController.swift */; };
+		BD4B15BB1EF73EED00D5FC98 /* ApparelCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B15BA1EF73EED00D5FC98 /* ApparelCollectionCell.swift */; };
+		BD4B15BD1EF73FEE00D5FC98 /* Apparel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B15BC1EF73FEE00D5FC98 /* Apparel.swift */; };
+		BD4B15C11EF74C0600D5FC98 /* ParseJsonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B15C01EF74C0600D5FC98 /* ParseJsonManager.swift */; };
+		BD4B4CB01EF9F53D00ECC622 /* MercariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4B4CAF1EF9F53D00ECC622 /* MercariUITests.swift */; };
+		ECE7CAD61EC290350038B6A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7CAD51EC290350038B6A5 /* AppDelegate.swift */; };
+		ECE7CADB1EC290350038B6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE7CAD91EC290350038B6A5 /* Main.storyboard */; };
+		ECE7CADD1EC290350038B6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE7CADC1EC290350038B6A5 /* Assets.xcassets */; };
+		ECE7CAE01EC290350038B6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE7CADE1EC290350038B6A5 /* LaunchScreen.storyboard */; };
+		ECE7CAEB1EC290350038B6A5 /* MercariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE7CAEA1EC290350038B6A5 /* MercariTests.swift */; };
+		ECE7CAF61EC2921C0038B6A5 /* all.json in Resources */ = {isa = PBXBuildFile; fileRef = ECE7CAF51EC2921C0038B6A5 /* all.json */; };
+		ECE7CB721EC294C90038B6A5 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE7CB041EC294C90038B6A5 /* ReactiveCocoa.framework */; };
+		ECE7CB741EC294C90038B6A5 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE7CB061EC294C90038B6A5 /* ReactiveSwift.framework */; };
+		ECE7CB761EC294C90038B6A5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE7CB081EC294C90038B6A5 /* Result.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4B4CB21EF9F53D00ECC622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE7CACA1EC290350038B6A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE7CAD11EC290350038B6A5;
+			remoteInfo = Mercari;
+		};
+		ECE7CAE71EC290350038B6A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE7CACA1EC290350038B6A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE7CAD11EC290350038B6A5;
+			remoteInfo = Mercari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD1B56671EF61289008C430B /* ApparelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApparelViewController.swift; sourceTree = "<group>"; };
+		BD4B15BA1EF73EED00D5FC98 /* ApparelCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApparelCollectionCell.swift; sourceTree = "<group>"; };
+		BD4B15BC1EF73FEE00D5FC98 /* Apparel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apparel.swift; sourceTree = "<group>"; };
+		BD4B15C01EF74C0600D5FC98 /* ParseJsonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJsonManager.swift; sourceTree = "<group>"; };
+		BD4B4CAD1EF9F53D00ECC622 /* MercariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4B4CAF1EF9F53D00ECC622 /* MercariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercariUITests.swift; sourceTree = "<group>"; };
+		BD4B4CB11EF9F53D00ECC622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE7CAD21EC290350038B6A5 /* Mercari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE7CAD51EC290350038B6A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECE7CADA1EC290350038B6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECE7CADC1EC290350038B6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECE7CADF1EC290350038B6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECE7CAE11EC290350038B6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE7CAE61EC290350038B6A5 /* MercariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE7CAEA1EC290350038B6A5 /* MercariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercariTests.swift; sourceTree = "<group>"; };
+		ECE7CAEC1EC290350038B6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE7CAF51EC2921C0038B6A5 /* all.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all.json; sourceTree = "<group>"; };
+		ECE7CB041EC294C90038B6A5 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = "<group>"; };
+		ECE7CB061EC294C90038B6A5 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveSwift.framework; sourceTree = "<group>"; };
+		ECE7CB081EC294C90038B6A5 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4B4CAA1EF9F53D00ECC622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE7CACF1EC290350038B6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7CB761EC294C90038B6A5 /* Result.framework in Frameworks */,
+				ECE7CB721EC294C90038B6A5 /* ReactiveCocoa.framework in Frameworks */,
+				ECE7CB741EC294C90038B6A5 /* ReactiveSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE7CAE31EC290350038B6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1B56631EF60854008C430B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CAF51EC2921C0038B6A5 /* all.json */,
+				BD4B15BC1EF73FEE00D5FC98 /* Apparel.swift */,
+				BD4B15C01EF74C0600D5FC98 /* ParseJsonManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD1B56641EF60859008C430B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B15BA1EF73EED00D5FC98 /* ApparelCollectionCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD1B56651EF6085E008C430B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD1B56671EF61289008C430B /* ApparelViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BD1B56661EF60880008C430B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CADE1EC290350038B6A5 /* LaunchScreen.storyboard */,
+				ECE7CAD91EC290350038B6A5 /* Main.storyboard */,
+				ECE7CAE11EC290350038B6A5 /* Info.plist */,
+				ECE7CADC1EC290350038B6A5 /* Assets.xcassets */,
+				ECE7CAD51EC290350038B6A5 /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		BD4B4CAE1EF9F53D00ECC622 /* MercariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B4CAF1EF9F53D00ECC622 /* MercariUITests.swift */,
+				BD4B4CB11EF9F53D00ECC622 /* Info.plist */,
+			);
+			path = MercariUITests;
+			sourceTree = "<group>";
+		};
+		ECE7CAC91EC290350038B6A5 = {
+			isa = PBXGroup;
+			children = (
+				ECE7CAF81EC294C90038B6A5 /* Carthage */,
+				ECE7CAD41EC290350038B6A5 /* Mercari */,
+				ECE7CAE91EC290350038B6A5 /* MercariTests */,
+				BD4B4CAE1EF9F53D00ECC622 /* MercariUITests */,
+				ECE7CAD31EC290350038B6A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE7CAD31EC290350038B6A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CAD21EC290350038B6A5 /* Mercari.app */,
+				ECE7CAE61EC290350038B6A5 /* MercariTests.xctest */,
+				BD4B4CAD1EF9F53D00ECC622 /* MercariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE7CAD41EC290350038B6A5 /* Mercari */ = {
+			isa = PBXGroup;
+			children = (
+				BD1B56661EF60880008C430B /* Others */,
+				BD1B56631EF60854008C430B /* Model */,
+				BD1B56641EF60859008C430B /* View */,
+				BD1B56651EF6085E008C430B /* Controller */,
+			);
+			path = Mercari;
+			sourceTree = "<group>";
+		};
+		ECE7CAE91EC290350038B6A5 /* MercariTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CAEA1EC290350038B6A5 /* MercariTests.swift */,
+				ECE7CAEC1EC290350038B6A5 /* Info.plist */,
+			);
+			path = MercariTests;
+			sourceTree = "<group>";
+		};
+		ECE7CAF81EC294C90038B6A5 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CAF91EC294C90038B6A5 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		ECE7CAF91EC294C90038B6A5 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CAFD1EC294C90038B6A5 /* iOS */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		ECE7CAFD1EC294C90038B6A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECE7CB041EC294C90038B6A5 /* ReactiveCocoa.framework */,
+				ECE7CB061EC294C90038B6A5 /* ReactiveSwift.framework */,
+				ECE7CB081EC294C90038B6A5 /* Result.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4B4CAC1EF9F53D00ECC622 /* MercariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4B4CB41EF9F53D00ECC622 /* Build configuration list for PBXNativeTarget "MercariUITests" */;
+			buildPhases = (
+				BD4B4CA91EF9F53D00ECC622 /* Sources */,
+				BD4B4CAA1EF9F53D00ECC622 /* Frameworks */,
+				BD4B4CAB1EF9F53D00ECC622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4B4CB31EF9F53D00ECC622 /* PBXTargetDependency */,
+			);
+			name = MercariUITests;
+			productName = MercariUITests;
+			productReference = BD4B4CAD1EF9F53D00ECC622 /* MercariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ECE7CAD11EC290350038B6A5 /* Mercari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE7CAEF1EC290350038B6A5 /* Build configuration list for PBXNativeTarget "Mercari" */;
+			buildPhases = (
+				ECE7CACE1EC290350038B6A5 /* Sources */,
+				ECE7CACF1EC290350038B6A5 /* Frameworks */,
+				ECE7CAD01EC290350038B6A5 /* Resources */,
+				ECE7CAF71EC2944D0038B6A5 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mercari;
+			productName = Mercari;
+			productReference = ECE7CAD21EC290350038B6A5 /* Mercari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE7CAE51EC290350038B6A5 /* MercariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE7CAF21EC290350038B6A5 /* Build configuration list for PBXNativeTarget "MercariTests" */;
+			buildPhases = (
+				ECE7CAE21EC290350038B6A5 /* Sources */,
+				ECE7CAE31EC290350038B6A5 /* Frameworks */,
+				ECE7CAE41EC290350038B6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE7CAE81EC290350038B6A5 /* PBXTargetDependency */,
+			);
+			name = MercariTests;
+			productName = MercariTests;
+			productReference = ECE7CAE61EC290350038B6A5 /* MercariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE7CACA1EC290350038B6A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mercari;
+				TargetAttributes = {
+					BD4B4CAC1EF9F53D00ECC622 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 546694HPXH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECE7CAD11EC290350038B6A5;
+					};
+					ECE7CAD11EC290350038B6A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 546694HPXH;
+						ProvisioningStyle = Automatic;
+					};
+					ECE7CAE51EC290350038B6A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECE7CAD11EC290350038B6A5;
+					};
+				};
+			};
+			buildConfigurationList = ECE7CACD1EC290350038B6A5 /* Build configuration list for PBXProject "Mercari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE7CAC91EC290350038B6A5;
+			productRefGroup = ECE7CAD31EC290350038B6A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE7CAD11EC290350038B6A5 /* Mercari */,
+				ECE7CAE51EC290350038B6A5 /* MercariTests */,
+				BD4B4CAC1EF9F53D00ECC622 /* MercariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4B4CAB1EF9F53D00ECC622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE7CAD01EC290350038B6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7CAE01EC290350038B6A5 /* LaunchScreen.storyboard in Resources */,
+				ECE7CAF61EC2921C0038B6A5 /* all.json in Resources */,
+				ECE7CADD1EC290350038B6A5 /* Assets.xcassets in Resources */,
+				ECE7CADB1EC290350038B6A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE7CAE41EC290350038B6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECE7CAF71EC2944D0038B6A5 /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4B4CA91EF9F53D00ECC622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B4CB01EF9F53D00ECC622 /* MercariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE7CACE1EC290350038B6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1B56681EF61289008C430B /* ApparelViewController.swift in Sources */,
+				BD4B15BD1EF73FEE00D5FC98 /* Apparel.swift in Sources */,
+				BD4B15C11EF74C0600D5FC98 /* ParseJsonManager.swift in Sources */,
+				ECE7CAD61EC290350038B6A5 /* AppDelegate.swift in Sources */,
+				BD4B15BB1EF73EED00D5FC98 /* ApparelCollectionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE7CAE21EC290350038B6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE7CAEB1EC290350038B6A5 /* MercariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4B4CB31EF9F53D00ECC622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE7CAD11EC290350038B6A5 /* Mercari */;
+			targetProxy = BD4B4CB21EF9F53D00ECC622 /* PBXContainerItemProxy */;
+		};
+		ECE7CAE81EC290350038B6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE7CAD11EC290350038B6A5 /* Mercari */;
+			targetProxy = ECE7CAE71EC290350038B6A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE7CAD91EC290350038B6A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE7CADA1EC290350038B6A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE7CADE1EC290350038B6A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE7CADF1EC290350038B6A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4B4CB51EF9F53D00ECC622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 546694HPXH;
+				INFOPLIST_FILE = MercariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnhDoan.MercariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mercari;
+			};
+			name = Debug;
+		};
+		BD4B4CB61EF9F53D00ECC622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 546694HPXH;
+				INFOPLIST_FILE = MercariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnhDoan.MercariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mercari;
+			};
+			name = Release;
+		};
+		ECE7CAED1EC290350038B6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECE7CAEE1EC290350038B6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE7CAF01EC290350038B6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 546694HPXH;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Mercari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercari.Mercari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECE7CAF11EC290350038B6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 546694HPXH;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Result/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Mercari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercari.Mercari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECE7CAF31EC290350038B6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MercariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercari.MercariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercari.app/Mercari";
+			};
+			name = Debug;
+		};
+		ECE7CAF41EC290350038B6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MercariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mercari.MercariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercari.app/Mercari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4B4CB41EF9F53D00ECC622 /* Build configuration list for PBXNativeTarget "MercariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B4CB51EF9F53D00ECC622 /* Debug */,
+				BD4B4CB61EF9F53D00ECC622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECE7CACD1EC290350038B6A5 /* Build configuration list for PBXProject "Mercari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE7CAED1EC290350038B6A5 /* Debug */,
+				ECE7CAEE1EC290350038B6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE7CAEF1EC290350038B6A5 /* Build configuration list for PBXNativeTarget "Mercari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE7CAF01EC290350038B6A5 /* Debug */,
+				ECE7CAF11EC290350038B6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE7CAF21EC290350038B6A5 /* Build configuration list for PBXNativeTarget "MercariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE7CAF31EC290350038B6A5 /* Debug */,
+				ECE7CAF41EC290350038B6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE7CACA1EC290350038B6A5 /* Project object */;
+}
