@@ -15,5 +15,6 @@ Output:
 emoticons: ["Anh is cool"],
 links: [
     link: google.com, title: No Title available,
+    
     link: https://www.google.com, title: Google
 ]
