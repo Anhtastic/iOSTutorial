@@ -12,9 +12,10 @@ User input:
 (Anh is cool) Anh is not cool, google.com, https://www.google.com
 
 Output: 
+
 emoticons: ["Anh is cool"],
+
 links: [
     link: google.com, title: No Title available,
-    
     link: https://www.google.com, title: Google
 ]
