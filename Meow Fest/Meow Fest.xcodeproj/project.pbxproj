@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CEC1A252C05D174D7C04AE /* Pods_Meow_Fest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961C253F91107BF0093B2819 /* Pods_Meow_Fest.framework */; };
+		BD232D041F3A6199003F8CF6 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD232D031F3A6199003F8CF6 /* ModelView.swift */; };
+		BD712B111F2D350900C320E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD712B101F2D350900C320E1 /* AppDelegate.swift */; };
+		BD712B131F2D350900C320E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD712B121F2D350900C320E1 /* ViewController.swift */; };
+		BD712B161F2D350900C320E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD712B141F2D350900C320E1 /* Main.storyboard */; };
+		BD712B191F2D350900C320E1 /* Meow_Fest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD712B171F2D350900C320E1 /* Meow_Fest.xcdatamodeld */; };
+		BD712B1B1F2D350900C320E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD712B1A1F2D350900C320E1 /* Assets.xcassets */; };
+		BD712B1E1F2D350900C320E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD712B1C1F2D350900C320E1 /* LaunchScreen.storyboard */; };
+		BD712B2D1F2D37F300C320E1 /* MeowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD712B2C1F2D37F300C320E1 /* MeowModel.swift */; };
+		BD712B2F1F2D386700C320E1 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD712B2E1F2D386700C320E1 /* NetworkRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		690944468C88C06EB49BC74A /* Pods-Meow Fest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meow Fest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Meow Fest/Pods-Meow Fest.debug.xcconfig"; sourceTree = "<group>"; };
+		961C253F91107BF0093B2819 /* Pods_Meow_Fest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meow_Fest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD232D031F3A6199003F8CF6 /* ModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		BD712B0D1F2D350900C320E1 /* Meow Fest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meow Fest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD712B101F2D350900C320E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD712B121F2D350900C320E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD712B151F2D350900C320E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD712B181F2D350900C320E1 /* Meow_Fest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meow_Fest.xcdatamodel; sourceTree = "<group>"; };
+		BD712B1A1F2D350900C320E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD712B1D1F2D350900C320E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD712B1F1F2D350900C320E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD712B2C1F2D37F300C320E1 /* MeowModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeowModel.swift; sourceTree = "<group>"; };
+		BD712B2E1F2D386700C320E1 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		D8F3E22B93A2467CC1A3E7D1 /* Pods-Meow Fest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meow Fest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meow Fest/Pods-Meow Fest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD712B0A1F2D350900C320E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CEC1A252C05D174D7C04AE /* Pods_Meow_Fest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D138B97F066A20485179ECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				961C253F91107BF0093B2819 /* Pods_Meow_Fest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD712B041F2D350900C320E1 = {
+			isa = PBXGroup;
+			children = (
+				BD712B0F1F2D350900C320E1 /* Meow Fest */,
+				BD712B0E1F2D350900C320E1 /* Products */,
+				D0F2769930DE937B98E7ED91 /* Pods */,
+				0D138B97F066A20485179ECC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD712B0E1F2D350900C320E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD712B0D1F2D350900C320E1 /* Meow Fest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD712B0F1F2D350900C320E1 /* Meow Fest */ = {
+			isa = PBXGroup;
+			children = (
+				BD712B281F2D379F00C320E1 /* API */,
+				BD712B271F2D379A00C320E1 /* Controller */,
+				BD712B261F2D379300C320E1 /* Model */,
+				BD712B251F2D378C00C320E1 /* View */,
+				BD712B101F2D350900C320E1 /* AppDelegate.swift */,
+				BD712B141F2D350900C320E1 /* Main.storyboard */,
+				BD712B1A1F2D350900C320E1 /* Assets.xcassets */,
+				BD712B1C1F2D350900C320E1 /* LaunchScreen.storyboard */,
+				BD712B1F1F2D350900C320E1 /* Info.plist */,
+				BD712B171F2D350900C320E1 /* Meow_Fest.xcdatamodeld */,
+			);
+			path = "Meow Fest";
+			sourceTree = "<group>";
+		};
+		BD712B251F2D378C00C320E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD232D031F3A6199003F8CF6 /* ModelView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BD712B261F2D379300C320E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD712B2C1F2D37F300C320E1 /* MeowModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BD712B271F2D379A00C320E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD712B121F2D350900C320E1 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BD712B281F2D379F00C320E1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BD712B2E1F2D386700C320E1 /* NetworkRequest.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D0F2769930DE937B98E7ED91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				690944468C88C06EB49BC74A /* Pods-Meow Fest.debug.xcconfig */,
+				D8F3E22B93A2467CC1A3E7D1 /* Pods-Meow Fest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD712B0C1F2D350900C320E1 /* Meow Fest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD712B221F2D350900C320E1 /* Build configuration list for PBXNativeTarget "Meow Fest" */;
+			buildPhases = (
+				132C021AFD2ABB220445E6FD /* [CP] Check Pods Manifest.lock */,
+				BD712B091F2D350900C320E1 /* Sources */,
+				BD712B0A1F2D350900C320E1 /* Frameworks */,
+				BD712B0B1F2D350900C320E1 /* Resources */,
+				E3321A8D29F0DDCA77ACE5BB /* [CP] Embed Pods Frameworks */,
+				0160C1DE6F7452C7A139C0BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meow Fest";
+			productName = "Meow Fest";
+			productReference = BD712B0D1F2D350900C320E1 /* Meow Fest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD712B051F2D350900C320E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anh Doan";
+				TargetAttributes = {
+					BD712B0C1F2D350900C320E1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 546694HPXH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD712B081F2D350900C320E1 /* Build configuration list for PBXProject "Meow Fest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD712B041F2D350900C320E1;
+			productRefGroup = BD712B0E1F2D350900C320E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD712B0C1F2D350900C320E1 /* Meow Fest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD712B0B1F2D350900C320E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD712B1E1F2D350900C320E1 /* LaunchScreen.storyboard in Resources */,
+				BD712B1B1F2D350900C320E1 /* Assets.xcassets in Resources */,
+				BD712B161F2D350900C320E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0160C1DE6F7452C7A139C0BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow Fest/Pods-Meow Fest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		132C021AFD2ABB220445E6FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3321A8D29F0DDCA77ACE5BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Meow Fest/Pods-Meow Fest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD712B091F2D350900C320E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD712B131F2D350900C320E1 /* ViewController.swift in Sources */,
+				BD712B111F2D350900C320E1 /* AppDelegate.swift in Sources */,
+				BD712B2D1F2D37F300C320E1 /* MeowModel.swift in Sources */,
+				BD712B2F1F2D386700C320E1 /* NetworkRequest.swift in Sources */,
+				BD232D041F3A6199003F8CF6 /* ModelView.swift in Sources */,
+				BD712B191F2D350900C320E1 /* Meow_Fest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD712B141F2D350900C320E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD712B151F2D350900C320E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD712B1C1F2D350900C320E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD712B1D1F2D350900C320E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD712B201F2D350900C320E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD712B211F2D350900C320E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD712B231F2D350900C320E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690944468C88C06EB49BC74A /* Pods-Meow Fest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 546694HPXH;
+				INFOPLIST_FILE = "Meow Fest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnhDoan.Meow-Fest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD712B241F2D350900C320E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F3E22B93A2467CC1A3E7D1 /* Pods-Meow Fest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 546694HPXH;
+				INFOPLIST_FILE = "Meow Fest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AnhDoan.Meow-Fest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD712B081F2D350900C320E1 /* Build configuration list for PBXProject "Meow Fest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD712B201F2D350900C320E1 /* Debug */,
+				BD712B211F2D350900C320E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD712B221F2D350900C320E1 /* Build configuration list for PBXNativeTarget "Meow Fest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD712B231F2D350900C320E1 /* Debug */,
+				BD712B241F2D350900C320E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD712B171F2D350900C320E1 /* Meow_Fest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD712B181F2D350900C320E1 /* Meow_Fest.xcdatamodel */,
+			);
+			currentVersion = BD712B181F2D350900C320E1 /* Meow_Fest.xcdatamodel */;
+			path = Meow_Fest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD712B051F2D350900C320E1 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Meow_Fest {
+  umbrella header "Pods-Meow Fest-umbrella.h"
+
+  export *
+  module * { export * }
+}
